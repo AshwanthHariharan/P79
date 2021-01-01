@@ -33,7 +33,7 @@ divdata = divdata+newitem1+"</h4>"
 console.log(divdata);
 
 var elem = document.createElement("img");
-elem.setAttribute("src", "images/pizzaImg.png");
+elem.setAttribute("src", "pizzaImg.png");
 elem.setAttribute("alt", "Pizza");
 elem.setAttribute("width","33.33%")
 document.getElementById("add_top").appendChild(elem)
